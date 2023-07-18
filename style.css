@@ -1,0 +1,65 @@
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #0000ff;
+  }
+  
+  .games {
+    padding: 2rem 2rem;
+    border-radius: 7px;
+    background: #00ffff;
+  }
+  
+  .container {
+    padding: 2rem 2rem;
+    border-radius: 7px;
+    background: #ffff00;
+  }
+  .result_images {
+    display: flex;
+    column-gap: 7rem;
+  }
+  
+  .result_images img {
+    width: 100px;
+  }
+  
+  .result {
+    text-align: center;
+    font-size: 2rem;
+    color: #ff0000;
+    margin-top: 1.5rem;
+  }
+  
+  .option_images {
+    display: flex;
+    align-items: center;
+    margin-top: 2.5rem;
+    justify-content: space-between;
+  }
+  
+  .option_image {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    opacity: 0.5;
+    cursor: pointer;
+    transition: opacity 0.3s ease;
+  }
+  .option_image:hover {
+    opacity: 1;
+  }
+  .option_image.active {
+    opacity: 1;
+  }
+  .option_image img {
+    pointer-events: none;
+  }
+  .option_image p {
+    color: #008040;
+    font-size: 1.235rem;
+    margin-top: 1rem;
+    pointer-events: none;
+  }
