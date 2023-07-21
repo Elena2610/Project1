@@ -75,21 +75,21 @@ totalScore++;
 [userRes.textContent, userRes.style.color] = [`User score:  ${userScore}`, "#069dde"];
 [cpuRes.textContent, cpuRes.style.color] = [`CPU score:  ${cpuScore}`, "#de06ba"];
 [matchRes.textContent, matchRes.style.color] = [`Match Draw score:  ${drawScore}`, "#de7906"];
-[totalRes.textContent, totalRes.style.color] = [`Total Games:  ${totalScore}`, "#06de59"];
+[totalRes.textContent, totalRes.style.color] = [`Total Games:  ${totalScore}`, "#9a06de"];
 printGuess();
   if (chance === 1) {
-    [guess.textContent, guess.style.color] = ["New cycle of games will start, if you not enter number for games to play.", "#DE0611"];
+    [guess.textContent, guess.style.color] = ["New round of games will start, if you not enter number for games to play.", "#DE0611"];
   }
 if (chance === 0) {
 if (userScore > cpuScore) {
-  [result.textContent, result.style.color] = [`User won this cycle!`, "#069dde"];
+  [result.textContent, result.style.color] = [`User won this round!`, "#069dde"];
 }
   else if (userScore < cpuScore)
 {
-  [result.textContent, result.style.color] = [`Computer won this cycle!`, "#069dde"];
+  [result.textContent, result.style.color] = [`Computer won this round!`, "#069dde"];
 }
 else
-  { [result.textContent, result.style.color] = [`No winner for this cycle!`, "#069dde"];}
+  { [result.textContent, result.style.color] = [`No winner for this round!`, "#069dde"];}
 setTimeout(() => {  window.location.reload(); }, 5000);  
   }
   });

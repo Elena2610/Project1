@@ -4,9 +4,11 @@ body {
   align-items: center;
   justify-content: center;
   background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTYcxG5pXu8Koy4iJZfhqY6-q7uyuYZTfzG1nzhUpadPBXC0PPOZ8Yn5rlyHLm6j7teYwo&usqp=CAU);
+  
 }
 
 .container {
+  width:800px;
   padding: 2rem 2rem;
   border-radius: 7px;
   background-image: url(https://i.pinimg.com/736x/2d/1e/3c/2d1e3c7abf8d7653aa7f7ba5142d3a48.jpg);
@@ -14,7 +16,8 @@ body {
 
 .result {
   text-align: center;
-  font-size: 2rem;
+  font-size: 3rem;
+  font-weight: 900;
   color: #ff0000;
   margin-top: 1.5rem;
 }
@@ -43,7 +46,8 @@ body {
 
 .option_image p {
   color: #008040;
-  font-size: 1.235rem;
+   font-weight: 900;
+  font-size: 2rem;
   margin-top: 1rem;
   pointer-events: none;
 }
@@ -51,16 +55,19 @@ body {
 .wrapper {
   padding: 30px -100px;
   border-radius: 12px;
-  background: #c0c0c0;
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT1RGHF2PgktuxWHOVAJDgpDkm1xVhFGM02xVxA_hK6b8MpXnz9TQLcrGBPLWygj6bJnNY&usqp=CAU);
+  background-size:100%;
   text-align: center;
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
 }
 .wrapper header {
-  font-size: 18px;
-  font-weight: 400;
+  font-size: 20px;
+  font-weight: 900;
   color: #333;
 }
 .wrapper p {
+   font-weight: 900;
+  font-size: 20px;
   color: #333;
 }
 .wrapper .input-field {
@@ -103,11 +110,13 @@ input::-webkit-outer-spin-button {
   margin:
   padding: 30px 50px;
   border-radius: 12px;
-  background: #c0c0c0;
+   background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT1RGHF2PgktuxWHOVAJDgpDkm1xVhFGM02xVxA_hK6b8MpXnz9TQLcrGBPLWygj6bJnNY&usqp=CAU);
+   background-size:100%;
   text-align: center;
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
 }
 .wrapper1 p {
   
+  font-weight: 900;
   color: #333;
 }
