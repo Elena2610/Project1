@@ -3,13 +3,13 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  background: #0000ff;
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTYcxG5pXu8Koy4iJZfhqY6-q7uyuYZTfzG1nzhUpadPBXC0PPOZ8Yn5rlyHLm6j7teYwo&usqp=CAU);
 }
 
 .container {
   padding: 2rem 2rem;
   border-radius: 7px;
-  background: #ffff00;
+  background-image: url(https://i.pinimg.com/736x/2d/1e/3c/2d1e3c7abf8d7653aa7f7ba5142d3a48.jpg);
 }
 
 .result {
@@ -49,9 +49,9 @@ body {
 }
 
 .wrapper {
-  padding: 30px 40px;
+  padding: 30px -100px;
   border-radius: 12px;
-  background: #fff;
+  background: #c0c0c0;
   text-align: center;
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
 }
@@ -91,7 +91,7 @@ input::-webkit-outer-spin-button {
 .input-field button {
   border: none;
   background: #4a98f7;
-  color: #fff;
+  color: #c0c0c0;
   cursor: pointer;
   transition: 0.3s;
 }
@@ -100,12 +100,14 @@ input::-webkit-outer-spin-button {
 }
 
 .wrapper1 {
-  padding: 30px 40px;
+  margin:
+  padding: 30px 50px;
   border-radius: 12px;
   background: #c0c0c0;
   text-align: center;
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
 }
 .wrapper1 p {
+  
   color: #333;
 }

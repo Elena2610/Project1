@@ -19,6 +19,9 @@ function printGuess()
 
  checkButton.addEventListener("click", () => {
   let inputValue = input.value;
+   if (inputValue == 0) {
+     window.location.reload();
+   }
    if (inputValue > 0 && inputValue <= 100) {
     chance = inputValue;
     printGuess();
@@ -57,7 +60,8 @@ optionImages.forEach((state1, index1) => {
       };    
       let outComeValue = outcomes[userValue + cpuValue];
       result.textContent = userValue === cpuValue ? "Match Draw" : `Computer played ${cpuValue1}. ${outComeValue} Won!`;
-    chance--;
+   chance--;
+    
 if (outComeValue==="User") {
   userScore++;
 }
@@ -74,10 +78,19 @@ totalScore++;
 [totalRes.textContent, totalRes.style.color] = [`Total Games:  ${totalScore}`, "#06de59"];
 printGuess();
   if (chance === 1) {
-    [guess.textContent, guess.style.color] = ["Next game will be the last game! New cicle of games will start, if you not enter number for games to play.", "#DE0611"];
+    [guess.textContent, guess.style.color] = ["New cycle of games will start, if you not enter number for games to play.", "#DE0611"];
   }
 if (chance === 0) {
-    window.location.reload();
+if (userScore > cpuScore) {
+  [result.textContent, result.style.color] = [`User won this cycle!`, "#069dde"];
+}
+  else if (userScore < cpuScore)
+{
+  [result.textContent, result.style.color] = [`Computer won this cycle!`, "#069dde"];
+}
+else
+  { [result.textContent, result.style.color] = [`No winner for this cycle!`, "#069dde"];}
+setTimeout(() => {  window.location.reload(); }, 5000);  
   }
   });
 });
