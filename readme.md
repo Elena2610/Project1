@@ -6,3 +6,6 @@ https://www.google.com/search?sxsrf=AB5stBgz2Tw25FId8o4Gwec2ssT6Q_uGOg:169016554
 https://www.google.com/search?sxsrf=AB5stBgz2Tw25FId8o4Gwec2ssT6Q_uGOg:1690165541601&q=rock+paper+scissors+js+dom&tbm=vid&sa=X&ved=2ahUKEwjs1d-lpaaAAxWYnokEHYyCAZgQ0pQJegQICRAB&biw=1366&bih=617&dpr=1#fpstate=ive&vld=cid:24986f80,vid:1yS-JV4fWqY
 https://www.google.com/search?sxsrf=AB5stBgz2Tw25FId8o4Gwec2ssT6Q_uGOg:1690165541601&q=rock+paper+scissors+js+dom&tbm=vid&sa=X&ved=2ahUKEwjs1d-lpaaAAxWYnokEHYyCAZgQ0pQJegQICRAB&biw=1366&bih=617&dpr=1#fpstate=ive&vld=cid:0f42071a,vid:RwFeg0cEZvQ
 
+
+Link to play a game:
+https://elena2610.github.io/Project1/
