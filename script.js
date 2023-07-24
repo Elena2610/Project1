@@ -1,5 +1,4 @@
-const gameContainer = document.querySelector(".container"),
-  result = document.querySelector(".result"),
+const result = document.querySelector(".result"),
   optionImages = document.querySelectorAll(".option_image"),
   input = document.querySelector("input"),
   guess = document.querySelector(".guess"),
@@ -38,7 +37,6 @@ printGuess();
 optionImages.forEach((state1, index1) => {
   state1.addEventListener("click", (e) => {
     state1.classList.add("active");
-    userRes.src = cpuRes.src;
     optionImages.forEach((state2, index2) => {
       index1 !== index2 && state2.classList.remove("active");
     });
